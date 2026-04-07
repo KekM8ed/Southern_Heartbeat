@@ -10,8 +10,8 @@ html, body {
 
 #controls {
   position: absolute;
-  top: 90px;
-  left: 10px;
+  bottom: 20px;   /* 👈 move to bottom */
+  left: 10px;     /* 👈 keep left aligned */
   z-index: 1000;
   background: white;
   padding: 8px;
