@@ -9,6 +9,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="disclaimerOverlay" role="dialog" aria-modal="true" aria-labelledby="disclaimerTitle">
+    <div id="disclaimerModal">
+      <h2 id="disclaimerTitle">Important information</h2>
+      <p>
+        This map is intended to help users identify nearby AED locations, but it may not always show complete,
+        current, or accessible information.
+      </p>
+      <p>
+        In an emergency, call emergency services immediately. Always follow local emergency procedures and
+        verify AED access where possible.
+      </p>
+      <button id="closeDisclaimerBtn" type="button">I understand</button>
+    </div>
+  </div>
+
   <div id="controls">
     <strong>Routing Mode:</strong><br>
     <button id="walkBtn" type="button">🚶 Walk</button>
