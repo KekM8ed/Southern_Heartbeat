@@ -21,6 +21,8 @@ const driveBtn = document.getElementById('driveBtn');
 const homeBtn = document.getElementById('homeBtn');
 const toggleSidebarBtn = document.getElementById('toggleSidebarBtn');
 const sidebar = document.getElementById('sidebar');
+const disclaimerOverlay = document.getElementById('disclaimerOverlay');
+const closeDisclaimerBtn = document.getElementById('closeDisclaimerBtn');
 
 let aedData = [];
 let userCoords = null;
@@ -333,6 +335,12 @@ async function loadAEDData() {
     console.error('AED data loading error:', error);
     nearestList.textContent = `Failed to load AED data: ${error.message}`;
   }
+}
+
+if (closeDisclaimerBtn && disclaimerOverlay) {
+  closeDisclaimerBtn.addEventListener('click', () => {
+    disclaimerOverlay.classList.add('hidden');
+  });
 }
 
 walkBtn.addEventListener('click', () => setMode('foot-walking'));
