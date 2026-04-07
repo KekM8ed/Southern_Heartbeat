@@ -156,7 +156,7 @@ async function getRouteTo(destination, feature, selectedLayer) {
     return;
   }
 
-  if (!CONFIG.ORS_API_KEY || CONFIG.ORS_API_KEY === '5b3ce3597851110001cf6248f35489e30d774c72937058dc7ed65089') {
+  if (!CONFIG.ORS_API_KEY || CONFIG.ORS_API_KEY === 'PASTE_YOUR_API_KEY_HERE') {
     alert('OpenRouteService API key is missing in config.js.');
     return;
   }
