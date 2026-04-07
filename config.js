@@ -1,0 +1,12 @@
+const CONFIG = {
+  ORS_API_KEY: "PASTE_YOUR_API_KEY_HERE",
+  AED_ICON_URL: "AED_Icon.webp",
+  INITIAL_VIEW: {
+    center: [-51.8, -59.5],
+    zoom: 8
+  },
+  USER_FOCUS_ZOOM: 14,
+  USER_INITIAL_ZOOM: 12,
+  AED_FOCUS_ZOOM: 14,
+  NEAREST_COUNT: 2
+};

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Stanley Community Centre AED",
+    "coords": [
+      -51.6972,
+      -57.849
+    ],
+    "availability": "Available 24/7",
+    "contact": "John Doe, +500 12345"
+  },
+  {
+    "name": "Mount Pleasant Airport AED",
+    "coords": [
+      -51.822,
+      -58.447
+    ],
+    "availability": "Staff access only",
+    "contact": "Airport Security, +500 67890"
+  },
+  {
+    "name": "Port Howard AED",
+    "coords": [
+      -51.689,
+      -60.131
+    ],
+    "availability": "Daylight hours only",
+    "contact": "Jane Smith, +500 55555"
+  },
+  {
+    "name": "Goose Green AED",
+    "coords": [
+      -51.82754,
+      -58.97289
+    ],
+    "availability": "Available 24/7",
+    "contact": "Clinic Staff, +500 11111"
+  },
+  {
+    "name": "North Arm AED",
+    "coords": [
+      -52.126753,
+      -59.368666
+    ],
+    "availability": "Office hours only",
+    "contact": "Manager, +500 22222"
+  },
+  {
+    "name": "Mare Harbour AED",
+    "coords": [
+      -51.9004208,
+      -58.4373619
+    ],
+    "availability": "Restricted access",
+    "contact": "Security, +500 33333"
+  }
+]
