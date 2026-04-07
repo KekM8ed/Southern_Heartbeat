@@ -156,8 +156,13 @@ async function getRouteTo(destination, feature, selectedLayer) {
     return;
   }
 
+  if (typeof CONFIG === 'undefined') {
+    alert('CONFIG is undefined. config.js is not loading.');
+    return;
+  }
+
   if (!CONFIG.ORS_API_KEY || CONFIG.ORS_API_KEY === 'PASTE_YOUR_API_KEY_HERE') {
-    alert('OpenRouteService API key is missing in config.js.');
+    alert(`OpenRouteService API key is missing. Current value: ${CONFIG.ORS_API_KEY}`);
     return;
   }
 
